@@ -1,6 +1,9 @@
 {
   "icecreams": [
     {
+      "id": 1,
+      "category": "Classic",
+      "isFeatured": true,
       "flavor": "Vanilla",
       "Description": "Classic and creamy vanilla icecream",
       "Toppings": ["chocolate", "Sprinkles", "Whipped Cream"],
@@ -22,6 +25,9 @@
       ]
     },
     {
+      "id": 2,
+      "category": "Classic",
+      "isFeatured": true,
       "flavor": "Chocolate",
       "Description": "Classic and creamy Chocolate icecream",
       "Toppings": ["chocolate sauce", "Sprinkles", "Whipped Cream"],
@@ -43,6 +49,9 @@
       ]
     },
     {
+      "id": 3,
+      "category": "Strawberry",
+      "isFeatured": true,
       "flavor": "Strawberry",
       "Description": "Classic and creamy Strawberry icecream",
       "Toppings": ["Strawberry sauce", "Sprinkles", "Whipped Cream"],
@@ -64,6 +73,9 @@
       ]
     },
     {
+      "id": 4,
+      "category": "Vanilla",
+      "isFeatured": false,
       "flavor": "Vanilla",
       "Description": "Classic and creamy vanilla icecream",
       "Toppings": ["chocolate", "Sprinkles", "Whipped Cream"],
@@ -85,6 +97,129 @@
       ]
     },
     {
+      "id": 5,
+      "category": "Classic",
+      "isFeatured": true,
+      "flavor": "Chocolate",
+      "Description": "Classic and creamy Chocolate icecream",
+      "Toppings": ["chocolate sauce", "Sprinkles", "Whipped Cream"],
+      "price": 11.99,
+      "image": "https://images.unsplash.com/photo-1502174832274-bc176e52765a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Cocoa",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tsp"
+        },
+        {
+          "name": "SEgg Yolks",
+          "quantity": "4"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Classic",
+      "isFeatured": true,
+      "flavor": "Vanilla",
+      "Description": "Classic and creamy vanilla icecream",
+      "Toppings": ["chocolate", "Sprinkles", "Whipped Cream"],
+      "price": 5.99,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Vanilla Extract",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tsp"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 tsp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Classic",
+      "isFeatured": true,
+      "flavor": "Chocolate",
+      "Description": "Classic and creamy Chocolate icecream",
+      "Toppings": ["chocolate sauce", "Sprinkles", "Whipped Cream"],
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1514910539021-85477c9cdcf8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Cocoa powder",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tsp"
+        },
+        {
+          "name": "SEgg Yolks",
+          "quantity": "4"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Strawberry",
+      "isFeatured": true,
+      "flavor": "Strawberry",
+      "Description": "Classic and creamy Strawberry icecream",
+      "Toppings": ["Strawberry sauce", "Sprinkles", "Whipped Cream"],
+      "price": 6.99,
+      "image": "https://images.unsplash.com/photo-1633933358116-a27b902fad35?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Strawberry",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tsp"
+        },
+        {
+          "name": "Strawberry sauce",
+          "quantity": "4 tsp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Vanilla",
+      "isFeatured": false,
+      "flavor": "Vanilla",
+      "Description": "Classic and creamy vanilla icecream",
+      "Toppings": ["chocolate", "Sprinkles", "Whipped Cream"],
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {
+          "name": "Vanilla Extract",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tsp"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 tsp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Classic",
+      "isFeatured": true,
       "flavor": "Chocolate",
       "Description": "Classic and creamy Chocolate icecream",
       "Toppings": ["chocolate sauce", "Sprinkles", "Whipped Cream"],
